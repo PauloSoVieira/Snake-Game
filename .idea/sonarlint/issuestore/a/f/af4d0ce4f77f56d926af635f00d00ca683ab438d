@@ -1,0 +1,10 @@
+
+´
+java:S1319^"qThe return type of this method should be an interface such as "List" rather than the implementation "LinkedList".(î£è8ƒ’¿—2J$7b2f1dec-b4b3-46ed-94b8-0bb81c8b20c8
+£
+java:S1450"[Remove the "lastPosition" field and declare it as a local variable in the relevant methods.(‹Èñıÿÿÿÿ8Š’¿—2J$94e5682c-192d-4784-a791-826fb18a6737
+ˆ
+java:S1124
+"EReorder the modifiers to comply with the Java Language Specification.(é÷¸ı8’¿—2J$51406e6f-7c35-40dc-b2d0-20403204b119
+x
+java:S1068"0Remove this unused "lastPosition" private field.(‹Èñıÿÿÿÿ8›’¿—2J$3f792b3f-465b-4edd-b7ad-6f63c51c30f6
