@@ -1,7 +1,5 @@
 
 _
-java:S1700"Rename field "position"(·Ì¼øÿÿÿÿÿ8˜ÜŞ‘2J$52110e31-6896-428a-a6c4-8ba3d254f3e3
-p
-java:S1199"-Extract this nested code block into a method.(¯ëş8®¢à‘2J$658cd81d-81f3-4573-a5b6-ff0af036cb06
-t
-java:S1068",Remove this unused "position" private field.(·Ì¼øÿÿÿÿÿ8›ÜŞ‘2J$e8931a04-dbb1-4fae-a468-b2a85b123a8c
+java:S1700"Rename field "position"(·Ì¼øÿÿÿÿÿ8€ˆÚ»2J$5fa566b4-e630-4487-8269-4b8723a175fe
+u
+java:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8€ˆÚ»2J$7e785be2-8e24-4885-adcb-933150b13245

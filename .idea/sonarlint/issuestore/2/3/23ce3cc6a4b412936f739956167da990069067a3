@@ -1,10 +1,10 @@
 
-Ä
-java:S1186%"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(òÂ¤Ï8…ÌÀ˜2J$a89e60e9-8302-47f5-8bc8-826160737056
-u
-java:S1144%"2Remove this unused private "generateFruit" method.(òÂ¤Ï8†ÌÀ˜2J$20039b09-d3d9-4720-80ca-f9ba580b37b3
-š	java:S131."YComplete cases by adding the missing enum constants or add a default case to this switch.(ÿãŸd8ŠÌÀ˜2J$78086dd0-1f11-4f1a-8ed0-5ad82158122a
-u
-java:S1135E"2Complete the task associated to this TODO comment.(¡ìÒ8‹ÌÀ˜2J$7d637e60-cdb3-485b-8cc9-9017c02167b7
-z
-java:S1135G"2Complete the task associated to this TODO comment.(³ÊÕ‡ùÿÿÿÿ8‹ÌÀ˜2J$9c9b926f-2151-4a40-85e8-11506bd7031c
+|
+java:S6213":Rename this variable to not match a restricted identifier.(şøò8…òÂØ2J$a99b6d61-6982-47e2-83c2-88b89d55f49b
+ƒ	java:S1252"<This block of commented-out lines of code should be removed.(Õµ±¦øÿÿÿÿ8Œ˜Ù2J$dff4f509-c0d0-4647-84f4-d6065a8d1c49
+š	java:S131:"YComplete cases by adding the missing enum constants or add a default case to this switch.(ÿãŸd8ˆòÂØ2J$1f2bd91f-704e-4259-8265-f01fff69ce74
+~	java:S125f"<This block of commented-out lines of code should be removed.(¼Ù§8‹òÂØ2J$73a2a065-f514-4eef-a64c-583f52bbb183
+q
+java:S1068")Remove this unused "count" private field.(Êâş¶úÿÿÿÿ8‹òÂØ2J$56b5cec3-a9bb-4be5-baa3-ca56a695829c
+l
+java:S1068"*Remove this unused "record" private field.(şøò8‹òÂØ2J$a30a5e51-e725-4701-b79d-2e772ee55c57

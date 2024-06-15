@@ -29,11 +29,22 @@ public class Snake {
     }
 
     public void increaseSize() {
-        body.add(new Position(body.getLast()));
+
+        body.addLast(lastPosition);
+
 
     }
 
     public void move(Direction direction) {
+
+
+        if ((this.direction == Direction.UP && direction == Direction.DOWN) ||
+                (this.direction == Direction.DOWN && direction == Direction.UP) ||
+                (this.direction == Direction.LEFT && direction == Direction.RIGHT) ||
+                (this.direction == Direction.RIGHT && direction == Direction.LEFT)) {
+            direction = this.direction;
+        }
+
 
         switch (direction) {
             case UP:
@@ -70,7 +81,7 @@ public class Snake {
 
         alive = false;
 
-        
+
     }
 
     public boolean isAlive() {
@@ -97,6 +108,12 @@ public class Snake {
 
     public int getSnakeSize() {
         return body.size();
+    }
+
+
+    public void addToFirst(Position position) {
+        this.body.removeFirst();
+        this.body.addFirst(position);
     }
 }
 

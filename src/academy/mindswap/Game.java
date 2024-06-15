@@ -12,11 +12,18 @@ public class Game {
     private Snake snake;
     private Fruit fruit;
     private int delay;
+    private int cols;
+    private int rows;
+    private int count;
+    private int record;
 
     public Game(int cols, int rows, int delay) {
+        this.cols = cols;
+        this.rows = rows;
         Field.init(cols, rows);
         snake = new Snake();
         this.delay = delay;
+        generateFruit();
     }
 
     public void start() throws InterruptedException {
@@ -36,6 +43,11 @@ public class Game {
 
     private void generateFruit() {
 
+        do {
+            fruit = new Fruit(cols, rows);
+        } while (snake.getFullSnake().contains(fruit.getPosition()));
+        Field.drawFruit(fruit);
+        // System.out.println("rows = " + fruit.getPosition());
     }
 
     private void moveSnake() {
@@ -66,15 +78,39 @@ public class Game {
 
     private void checkCollisions() {
 
-        //Todo snake has to die when hits wall
 
-        //Todo snake has to die when hits itself
+        for (int i = 1; i < snake.getSnakeSize(); i++) {
+            if (snake.getHead().equals(snake.getFullSnake().get(i))) {
+                snake.die();
+            }
 
 
-        if (snake.getHead().getCol() < 0 || snake.getHead().getCol() >= 100 || snake.getHead().getRow() < 0 || snake.getHead().getRow() >= 25) {
-            snake.die();
+            if (snake.getHead().getCol() > Field.getWidth()) {
+                snake.getHead().setXCoords(0);
+            }
+            if (snake.getHead().getCol() < 0) {
+                snake.getHead().setXCoords(Field.getWidth());
+            }
 
+            if (snake.getHead().getRow() > Field.getHeight()) {
+                snake.getHead().setYCoords(0);
+            }
+            if (snake.getHead().getRow() < 0) {
+                snake.getHead().setYCoords(Field.getHeight());
+            }
+/*
+            if (snake.getHead().getCol() < 1 || snake.getHead().getCol() >= cols - 1 || snake.getHead().getRow() < 1 || snake.getHead().getRow() >= rows - 1) {
+                snake.die();
+            }
+
+
+ */
+
+            if (snake.getHead().equals(fruit.getPosition())) {
+                snake.increaseSize();
+                generateFruit();
+
+            }
         }
-
     }
 }

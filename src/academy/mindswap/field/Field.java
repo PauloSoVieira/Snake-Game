@@ -10,7 +10,7 @@ import com.googlecode.lanterna.terminal.Terminal;
 
 public final class Field {
 
-    private static final String BORDER_STRING = "▒";
+    private static final String BORDER_STRING = "";
     private static final String SNAKE_BODY_STRING = "#";
     private static final String SNAKE_HEAD_STRING = "0";
     private static final String FRUIT_STRING = "@";
@@ -44,7 +44,7 @@ public final class Field {
 
         Terminal.Color snakeColor = Terminal.Color.GREEN;
 
-        if (!snake.isAlive()){
+        if (!snake.isAlive()) {
             snakeColor = Terminal.Color.RED;
         }
 
