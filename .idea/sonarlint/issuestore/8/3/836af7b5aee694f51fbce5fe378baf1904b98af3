@@ -1,5 +1,5 @@
 
 ¡
 java:S2142
-"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8ŞØ½2J$8557ac92-d30c-4e59-a611-5bf535eda0b1
-r	java:S106"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8ŞØ½2J$6fedd4a5-dca7-4280-b492-0b24fa4c6dac
+"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8ŞØ½2J$677d21d9-5d87-4297-b58f-ef7bf8c993e8
+r	java:S106"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8ŞØ½2J$e31b3151-0ec4-4536-ac6f-906fa0f26487

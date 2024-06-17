@@ -1,6 +1,7 @@
 package academy.mindswap.field;
 
 import academy.mindswap.gameobjects.fruit.Fruit;
+import academy.mindswap.gameobjects.rock.Rock;
 import academy.mindswap.gameobjects.snake.Snake;
 import com.googlecode.lanterna.TerminalFacade;
 import com.googlecode.lanterna.input.Key;
@@ -14,6 +15,7 @@ public final class Field {
     private static final String SNAKE_BODY_STRING = "#";
     private static final String SNAKE_HEAD_STRING = "0";
     private static final String FRUIT_STRING = "@";
+    private static final String ROCK_STRING = "▒";
 
     private static int width;
     private static int height;
@@ -83,6 +85,10 @@ public final class Field {
 
     public static void drawFruit(Fruit fruit) {
         screen.putString(fruit.getPosition().getCol(), fruit.getPosition().getRow(), FRUIT_STRING, Terminal.Color.MAGENTA, null);
+    }
+
+    public static void drawRock(Rock rock) {
+        screen.putString(rock.getPosition().getCol(), rock.getPosition().getRow(), ROCK_STRING, Terminal.Color.RED, null);
     }
 
     public static int getWidth() {

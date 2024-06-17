@@ -63,6 +63,7 @@ public class Snake {
                 firstPosition = new Position(body.getFirst().getCol() + 1, body.getFirst().getRow());
                 this.direction = Direction.RIGHT;
                 break;
+            case ENTER:
         }
         body.addFirst(firstPosition);
         if (body.size() > SNAKE_INITIAL_SIZE) {
