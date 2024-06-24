@@ -1,19 +1,19 @@
 
-œ	java:S116"ZRename this field "ROCKTIMERCHANGE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡¤«å8¾‘Õ©‚2J$0179b02d-0e4f-46c7-8d45-69e2183c94be
+œ	java:S116"ZRename this field "ROCKTIMERCHANGE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡¤«å8Š“½­‚2J$540ae630-40e0-4f94-8d25-3cb8b5378e0e
 d
-java:S1170"!Make this final field static too.(‡¤«å8¾‘Õ©‚2J$ae6689b7-2cd8-4d1c-bb7d-2a0d6231b2e1
+java:S1170"!Make this final field static too.(‡¤«å8Š“½­‚2J$68f1e28b-7e29-44db-bdc2-befed9627c74
 ›
-java:S1450"SRemove the "rock" field and declare it as a local variable in the relevant methods.(—Â÷´üÿÿÿÿ8À‘Õ©‚2J$9de5c14f-aac8-4d9a-9c34-e0c1fc65b674
+java:S1450"SRemove the "rock" field and declare it as a local variable in the relevant methods.(—Â÷´üÿÿÿÿ8‹“½­‚2J$c39ac1c9-a63a-4c58-b537-d253ac4d5f44
 |
-java:S6213":Rename this variable to not match a restricted identifier.(þøò8Á‘Õ©‚2J$068be059-a943-4c54-a0ff-cc7702590d6f
-m	java:S106T"+Replace this use of System.out by a logger.(ª„¬ó8Ê‘Õ©‚2J$cd602e60-4436-4da8-a76f-3bca9085b0f8
-r	java:S106Y"+Replace this use of System.out by a logger.(ÓÀëËûÿÿÿÿ8Ê‘Õ©‚2J$4183be5a-f914-48f3-a1f2-84911c61ea33
-ƒ	java:S125h"<This block of commented-out lines of code should be removed.(Õµ±¦øÿÿÿÿ8Ì‘Õ©‚2J$50e0b13e-fc99-4e02-9ff1-b3e691bdf8dc
-š	java:S131p"YComplete cases by adding the missing enum constants or add a default case to this switch.(ÿãŸd8Í‘Õ©‚2J$9fca5294-8084-4d59-b933-773d44802f6a
-s	java:S106œ"+Replace this use of System.out by a logger.(ç¼×ªúÿÿÿÿ8Ð‘Õ©‚2J$69983b26-da8d-4602-90f2-2dbd211ea643
-s	java:S106ž"+Replace this use of System.out by a logger.(º—¿¡øÿÿÿÿ8Ð‘Õ©‚2J$180b2982-cb27-4217-b565-ea78c44f8172
+java:S6213":Rename this variable to not match a restricted identifier.(þøò8Ž“½­‚2J$838bc761-49bd-4fc2-bf8e-c127222482f4
+m	java:S106U"+Replace this use of System.out by a logger.(ª„¬ó8˜“½­‚2J$abfd24c0-39ee-4233-87b4-f8f5ecfbca3f
+r	java:S106Z"+Replace this use of System.out by a logger.(ÓÀëËûÿÿÿÿ8˜“½­‚2J$aae428f4-cf76-4896-92eb-9828fe499af0
+ƒ	java:S125i"<This block of commented-out lines of code should be removed.(Õµ±¦øÿÿÿÿ8›“½­‚2J$69c17f46-55e3-44d5-a2c0-8eb898dd6ee3
+š	java:S131q"YComplete cases by adding the missing enum constants or add a default case to this switch.(ÿãŸd8œ“½­‚2J$8e37b005-e751-455f-9dd2-5b44572183f1
+s	java:S106"+Replace this use of System.out by a logger.(ç¼×ªúÿÿÿÿ8 “½­‚2J$1ffb9885-0305-444f-b05d-6eb0a394fb07
+s	java:S106Ÿ"+Replace this use of System.out by a logger.(º—¿¡øÿÿÿÿ8 “½­‚2J$a78fd887-4932-402e-8529-aa89d5a226ef
 •
-java:S3776¢"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(÷Ž©=8Ñ‘Õ©‚2J$f586768d-9787-4376-b2cc-f86bd899df5a
+java:S3776£"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(÷Ž©=8¡“½­‚2J$b3910a45-358f-4cce-b558-c94ea74de7d1
 |
-java:S1117­"8Rename "rock" which hides the field declared at line 24.(›ï¢®8Ó‘Õ©‚2J$71459bf4-a342-4e44-89b2-17e02bf15f5a
-	java:S125Ê"<This block of commented-out lines of code should be removed.(¼Ù§8Ö‘Õ©‚2J$d7e8236f-3b10-4702-9871-ac917fa6a97a
+java:S1117®"8Rename "rock" which hides the field declared at line 24.(›ï¢®8£“½­‚2J$1b8e91d1-ef57-4698-b70e-e93a65272caf
+	java:S125Ë"<This block of commented-out lines of code should be removed.(¼Ù§8¦“½­‚2J$0ec6fd56-aeb0-4ef3-8fd5-4c29ce8dc9c5

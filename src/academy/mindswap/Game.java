@@ -28,6 +28,7 @@ public class Game {
     private int count;
     private int record;
 
+
     public Game(int cols, int rows, int delay) {
         this.cols = cols;
         this.rows = rows;
